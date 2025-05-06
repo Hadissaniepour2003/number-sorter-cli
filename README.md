@@ -1,25 +1,19 @@
-# Number Sorter CLI 🧮
+# Number Sorter CLI
 
-A simple command-line Python program that categorizes user input into 1s, 2s, and 3s, calculates the total sum, and prints the result as a mathematical expression.
+This is a basic Python script that takes integer inputs from the user and filters them into 1s, 2s, and 3s. It then prints the full math expression and the total sum.
 
-> 🧪 *This was my first university Python project — focused on learning loops, conditionals, and list handling.*
+This was my first university Python project and was mainly written to get comfortable with loops, conditionals, and simple list handling.
 
-## 📌 Features
-
-- Accepts integer inputs from the user
-- Categorizes numbers into three separate groups (1, 2, or 3)
-- Ignores all other values except -1 (which ends the program)
-- Computes and prints the full addition expression and total sum
-- Displays all entered 1s, 2s, and 3s together as a list
-
-## 💻 How to Run
+## How to Run
 
 ```bash
 python number_sorter.py
-enter a number: 1  
-enter a number: 2  
-enter a number: 1  
-enter a number: 3  
-enter a number: -1  
-1+2+1+3 = 7  
+Enter a number: 1
+Enter a number: 2
+Enter a number: 1
+Enter a number: 3
+Enter a number: -1
+
+1+2+1+3 = 7
 [1, 2, 1, 3]
+
